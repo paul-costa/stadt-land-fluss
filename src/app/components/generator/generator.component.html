@@ -1,1 +1,6 @@
-<p>generator works!</p>
+<button mat-fab extended color="primary" [disabled]="currentLetter != ''" (click)="onGenerate()">
+  <mat-icon>refresh</mat-icon>
+  Start
+</button>
+
+<p *ngIf="currentLetter">Current Letter: "{{ currentLetter }}"</p>

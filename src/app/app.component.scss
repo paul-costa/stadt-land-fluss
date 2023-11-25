@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffa83652;
+
+  .progress-bar-container {
+    padding: 12px 6px 0 6px;
+  }
+
+  .input-fields-container {
+    flex: 1;
+  }
+
+  .actions-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 36px;
+}
+  }
+

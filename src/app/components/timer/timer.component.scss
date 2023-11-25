@@ -1,0 +1,12 @@
+.progress-bar {
+  border-radius: 12px;
+  border: 1px solid rgb(30, 30, 30);
+}
+
+::ng-deep .mat-mdc-progress-bar {
+  --mdc-linear-progress-active-indicator-color: #3c8b24;
+  --mdc-linear-progress-track-color: rgba(114, 125, 111, 0.3);
+
+  --mdc-linear-progress-active-indicator-height: 12px !important;
+  --mdc-linear-progress-track-height: 12px !important;
+}
